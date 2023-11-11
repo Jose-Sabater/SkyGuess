@@ -14,7 +14,7 @@ streamlit run main.py
 ## How it works
 We get a latitude and longitude from a point in the map, fitting EPSG:4326. .
 For example in this instance we select a point near houston:
-![](./assets/select_point.png)
+![](./assets/select_point.PNG)
 We then retrieve all flights in a specific radius.  
 You can select to search for the closest flights, or to the closest flight to a specific cardinality.
 By default we work with the 2 closest. And we plot them on the map.
